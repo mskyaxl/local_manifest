@@ -8,19 +8,21 @@
 	
     <remote name="device"
             fetch="https://github.com"
-            revision="lineage-18.1"/>
+            revision="fluid_11"/>
 
-    <remote name="kernel"
+    <!-- <remote name="kernel"
             fetch="https://github.com"
-            revision="lineage-18.1"/>
+            revision="lineage-18.1"/> -->
 
     <!--Device Trees-->
-    <project path="device/sony/pdx203" name="hellobbn/android_device_sony_pdx203" remote="device" />
+    <project path="device/sony/pdx203" name="ShionKagurazaka/android_device_sony_pdx203" remote="device"/>
+    <project path="device/sony/edo-common" name="ShionKagurazaka/android_device_sony_edo-common" remote="device"/>
+
 
 
     <!--Kernel-->
-    <project path="kernel/sony/sm8250" name="hellobbn/android_kernel_sony_sm8250" remote="kernel" />
+    <!-- <project path="kernel/sony/sm8250" name="hellobbn/android_kernel_sony_sm8250" remote="kernel" /> -->
 
     <!-- Vendor folders -->
-    <project path="vendor/sony/pdx203" name="hellobbn/android_vendor_sony_pdx203" remote="vendor" />
+    <project path="vendor/sony/pdx203" name="ShionKagurazaka/android_vendor_sony_pdx203" remote="vendor" />
 </manifest>
