@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="r-mr1" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="r-mr1" />
+
+<!--sm8250-->
+<project path="device/sony/edo" name="device-sony-edo" groups="device" remote="sony" revision="r-mr1" />
+<project path="device/sony/pdx203" name="device-sony-pdx203" groups="device" remote="sony" revision="r-mr1" />
+<project path="device/sony/pdx206" name="device-sony-pdx206" groups="device" remote="sony" revision="r-mr1" />
+</manifest>
