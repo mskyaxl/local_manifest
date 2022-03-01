@@ -10,7 +10,7 @@
       fetch="https://github.com/sonyxperiadev/" />
 
   <!--Device Trees-->
-  <project path="device/sony/pdx203" name="android_device_sony_pdx203" groups="device" remote="mskyaxl" revision="lineage-18.1"/>
+  <project path="device/sony/pdx203" name="android_device_sony_pdx203" groups="device" remote="mskyaxl" revision="lineage-18.1-dtb"/>
   <project path="device/sony/edo-common" name="android_device_sony_edo-common" groups="device" remote="mskyaxl" revision="lineage-18.1"/>
 
   <!-- Vendor folders -->
@@ -24,8 +24,9 @@
   <project path="kernel/sony/sm8250" name="kernel" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
   <project path="kernel/sony/sm8250/techpack/audio" name="kernel-techpack-audio" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
   <project path="kernel/sony/sm8250/techpack/camera" name="kernel-techpack-camera" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
-  <project path="kernel/sony/sm8250/techpack/data-kernel" name="kernel-techpack-data-kernel" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+  <project path="kernel/sony/sm8250/techpack/data" name="kernel-techpack-data-kernel" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
   <project path="kernel/sony/sm8250/techpack/display" name="kernel-techpack-display-driver" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+  <project path="kernel/sony/sm8250/techpack/video" name="kernel-techpack-video" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
   <project path="kernel/sony/sm8250/arch/arm64/configs/sony" name="kernel-defconfig" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
   <project path="kernel/sony/sm8250/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
   <project path="kernel/sony/sm8250/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
