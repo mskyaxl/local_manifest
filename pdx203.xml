@@ -13,7 +13,7 @@
           fetch="ssh://git@github.com/mskyaxl/"
     />
   <!--Device Trees-->
-  <project path="device/sony/xqat51" name="android_device_sony_xqat51" groups="device" remote="mskyaxl" revision="lineage-19.1"/>
+  <project path="device/sony/xqat51" name="android_device_sony_xqat51" groups="device" remote="mskyaxl" revision="lineage-20"/>
   <!-- <project path="device/sony/pdx203" name="android_device_sony_pdx203" groups="device" remote="mskyaxl" revision="lineage-19.1"/>
   <project path="device/sony/sm8250-common" name="android_device_sony_edo-common" groups="device" remote="mskyaxl" revision="lineage-19.1"/> -->
 
