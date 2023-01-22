@@ -11,18 +11,16 @@
 
   <remote name="mskyaxl"
           fetch="ssh://git@github.com/mskyaxl/"
-           />	
+    />
   <!--Device Trees-->
-  <project path="device/sony/xqat51" name="android_device_sony_xqat51" groups="device" remote="mskyaxl" revision="lineage-19.1">
-    <linkfile src="repo_update.sh" dest="repo_update.sh" />
-  </project>
+  <project path="device/sony/xqat51" name="android_device_sony_xqat51" groups="device" remote="mskyaxl" revision="lineage-19.1"/>
   <!-- <project path="device/sony/pdx203" name="android_device_sony_pdx203" groups="device" remote="mskyaxl" revision="lineage-19.1"/>
   <project path="device/sony/sm8250-common" name="android_device_sony_edo-common" groups="device" remote="mskyaxl" revision="lineage-19.1"/> -->
 
   <!-- <project path="hardware/sony" name="android_hardware_sony" groups="device" remote="mskyaxl" revision="lineage-19.1"/> -->
 
   <!-- Vendor folders -->
-  <project path="vendor/sony" name="proprietary_vendor_sony" groups="device" remote="mskyaxl" revision="lineage-19.1" />
+  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" groups="device" remote="github" revision="lineage-19.1" />
   <!-- <project path="vendor/sony/pdx203" name="android_vendor_sony_pdx203" groups="device" remote="mskyaxl" revision="lineage-19.1" /> -->
   <!-- Kernel folders -->
   <!--  <project path="kernel/sony/sm8250" name="android_kernel_sony_sm8250" groups="device" remote="mskyaxl" revision="lineage-19.1" /> -->
